@@ -28,7 +28,7 @@ with st.expander("Prompt"):
 # if secret_key:
 load_dotenv()
 # os.environ["OPENAI_API_KEY"] =  # put your openai key
-openapi_key = os.getenv("OPENAPI_KEY")
+openapi_key = os.getenv("OPENAI_API_KEY")
 
 # pinecone 
 
