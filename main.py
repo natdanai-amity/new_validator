@@ -1,5 +1,6 @@
 # Comment this out if you are NOT using tracing
 import os
+from dotenv import load_dotenv
 import io
 import openai
 from langchain.llms import OpenAI
@@ -25,9 +26,9 @@ with st.expander("Prompt"):
 # secret_key = st.text_input("Please enter your OpenAI api key",type='password')
 
 # if secret_key:
-
+load_dotenv()
 # os.environ["OPENAI_API_KEY"] =  # put your openai key
-openai_api_key = os.environ['OPENAI_API_KEY']
+openapi_key = os.getenv("OPENAPI_KEY")
 
 # pinecone 
 
