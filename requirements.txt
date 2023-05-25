@@ -1,0 +1,9 @@
+openai
+langchain
+pinecone-client
+unstructured
+pdf2image
+pytesseract
+tiktoken
+streamlit
+evaluate
